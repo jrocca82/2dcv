@@ -2,7 +2,6 @@ import { SCALE_FACTOR } from "./constants";
 import { k } from "./kaboomContext";
 import { displayDialogue, setCamScale } from "./utils";
 
-
 // Load assets
 k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceX: 39,
@@ -18,6 +17,8 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
 });
 
 k.loadSprite("map", "./map.png");
+
+// HEYOOOO
 
 // Set canvas color
 k.setBackground(k.Color.fromHex("#311047"));
